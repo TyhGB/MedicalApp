@@ -15,6 +15,7 @@
 ![image](https://github.com/TyhGB/MedicalApp/blob/master/GIF图片/3.gif)
 顶部轮播图，中间有5个button可以点击切换显示不同的信息，同时下面的一条紫色的线也会跟着移动。
 # 第四个界面
+![image](https://github.com/TyhGB/MedicalApp/blob/master/GIF图片/4.gif)
 实现了个人信息这块，可以修改头像，可以选择从相册选取，或者用摄像头拍摄（模拟器不能用摄像头）。可以修改昵称。
 中间部分充值，订单等没有实现。
 设置与帮助中可以修改密码，退出登陆等等。
