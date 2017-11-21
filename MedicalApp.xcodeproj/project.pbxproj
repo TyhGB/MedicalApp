@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A01C7D81F8E155D00C1FDB0 /* ClinicTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A01C7D71F8E155D00C1FDB0 /* ClinicTableViewCell.m */; };
+		2A34A9911FA2D55800739DE0 /* UserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9901FA2D55800739DE0 /* UserModel.m */; };
+		2A34A9941FA2D58000739DE0 /* UserDataBase.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9931FA2D58000739DE0 /* UserDataBase.m */; };
+		2A34A9971FA2D64800739DE0 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9961FA2D64800739DE0 /* LoginViewController.m */; };
+		2A34A99A1FA2D66F00739DE0 /* OrganizationTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9991FA2D66F00739DE0 /* OrganizationTableViewCell.m */; };
+		2A34A99D1FA2D68000739DE0 /* PhoneNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A99C1FA2D68000739DE0 /* PhoneNumberTableViewCell.m */; };
+		2A34A9A01FA2D69000739DE0 /* PWDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A99F1FA2D69000739DE0 /* PWDTableViewCell.m */; };
+		2A34A9A31FA2D71800739DE0 /* RegistViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9A21FA2D71800739DE0 /* RegistViewController.m */; };
+		2A34A9A61FA2D73400739DE0 /* RphoneNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9A51FA2D73400739DE0 /* RphoneNumberTableViewCell.m */; };
+		2A34A9A91FA2D74600739DE0 /* RuserNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9A81FA2D74600739DE0 /* RuserNameTableViewCell.m */; };
+		2A34A9AC1FA2D75400739DE0 /* RpwdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9AB1FA2D75400739DE0 /* RpwdTableViewCell.m */; };
+		2A34A9AF1FA2D7B200739DE0 /* ForgetViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9AE1FA2D7B200739DE0 /* ForgetViewController.m */; };
+		2A34A9B21FA2D7CD00739DE0 /* FphoneNumberTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9B11FA2D7CD00739DE0 /* FphoneNumberTableViewCell.m */; };
+		2A34A9B51FA2D84200739DE0 /* FpwdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A34A9B41FA2D84200739DE0 /* FpwdTableViewCell.m */; };
+		2A4F4E231FC3075C007AA901 /* ReportViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F4E221FC3075C007AA901 /* ReportViewController.m */; };
+		2A4F4E261FC307B3007AA901 /* HealthTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F4E251FC307B3007AA901 /* HealthTestViewController.m */; };
+		2A4F4E291FC307D7007AA901 /* CreditShopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A4F4E281FC307D7007AA901 /* CreditShopViewController.m */; };
+		2A50152D1FA6C6B7006C83ED /* SetAndHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A50152C1FA6C6B7006C83ED /* SetAndHelpViewController.m */; };
+		2A5015311FA720BD006C83ED /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5015301FA720BD006C83ED /* UserViewController.m */; };
+		2A5015341FA720D2006C83ED /* HeadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5015331FA720D2006C83ED /* HeadTableViewCell.m */; };
+		2A5015381FA72152006C83ED /* UserPhoneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5015371FA72152006C83ED /* UserPhoneTableViewCell.m */; };
+		2A50153B1FA72167006C83ED /* NickNameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A50153A1FA72167006C83ED /* NickNameTableViewCell.m */; };
+		2A50153E1FA72173006C83ED /* CardTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A50153D1FA72173006C83ED /* CardTableViewCell.m */; };
+		2A5015411FA74B89006C83ED /* RetNameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5015401FA74B89006C83ED /* RetNameViewController.m */; };
+		2A9937171FA877FA004095A2 /* SetHeadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A9937161FA877FA004095A2 /* SetHeadViewController.m */; };
+		2AB6BE1C1FC431D300C42CD5 /* WebProgressLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6BE181FC431D200C42CD5 /* WebProgressLayer.m */; };
+		2AB6BE1D1FC431D300C42CD5 /* TYH_WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB6BE1A1FC431D300C42CD5 /* TYH_WebViewController.m */; };
+		2AB73B401F93462800D55A1F /* TopViewTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73B3F1F93462800D55A1F /* TopViewTableViewCell.m */; };
+		2AB73B461F93922E00D55A1F /* ClinicTaps.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73B451F93922E00D55A1F /* ClinicTaps.m */; };
+		2AB73B491F9449EA00D55A1F /* SectionTwoHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB73B481F9449EA00D55A1F /* SectionTwoHeader.m */; };
+		2AB743DE1F80E94800BAA0EA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB743DD1F80E94800BAA0EA /* main.m */; };
+		2AB743E11F80E94800BAA0EA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB743E01F80E94800BAA0EA /* AppDelegate.m */; };
+		2AB743E41F80E94800BAA0EA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB743E31F80E94800BAA0EA /* ViewController.m */; };
+		2AB743E71F80E94800BAA0EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB743E51F80E94800BAA0EA /* Main.storyboard */; };
+		2AB743E91F80E94800BAA0EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AB743E81F80E94800BAA0EA /* Assets.xcassets */; };
+		2AB743EC1F80E94800BAA0EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AB743EA1F80E94800BAA0EA /* LaunchScreen.storyboard */; };
+		2AB743F91F80EF3B00BAA0EA /* IndexViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB743F81F80EF3B00BAA0EA /* IndexViewController.m */; };
+		2AB743FC1F80EF4E00BAA0EA /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB743FB1F80EF4E00BAA0EA /* NewsViewController.m */; };
+		2AB743FF1F80EF5B00BAA0EA /* ClinicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB743FE1F80EF5B00BAA0EA /* ClinicViewController.m */; };
+		2AB744021F80EF6600BAA0EA /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB744011F80EF6600BAA0EA /* MeViewController.m */; };
+		2AB744061F80F61900BAA0EA /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB744051F80F61900BAA0EA /* MainTabBarViewController.m */; };
+		2AB744091F81398000BAA0EA /* SectionOneTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB744081F81398000BAA0EA /* SectionOneTableViewCell.m */; };
+		2AB7440C1F81398F00BAA0EA /* SectionTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AB7440B1F81398F00BAA0EA /* SectionTwoTableViewCell.m */; };
+		2AC5A2421F833BD1009ABA5A /* IndexDataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A2411F833BD1009ABA5A /* IndexDataModel.m */; };
+		2AC5A2691F891B4B009ABA5A /* SectionZeroTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A2681F891B4B009ABA5A /* SectionZeroTableViewCell.m */; };
+		2AC5A26F1F8B0F00009ABA5A /* ButtonCustom.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AC5A26E1F8B0F00009ABA5A /* ButtonCustom.m */; };
+		2AEF866A1FC145DF00F8C3BE /* AskDoctorsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF86691FC145DF00F8C3BE /* AskDoctorsViewController.m */; };
+		2AEF866D1FC172EE00F8C3BE /* AppointmentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF866C1FC172EE00F8C3BE /* AppointmentViewController.m */; };
+		2AEF86701FC1805A00F8C3BE /* WisdomMedicalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AEF866F1FC1805A00F8C3BE /* WisdomMedicalViewController.m */; };
+		C13A4EDB714D13F2C1BBA470 /* libPods-MedicalApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 04D54D8956C4A80E54CB9D7D /* libPods-MedicalApp.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		04D54D8956C4A80E54CB9D7D /* libPods-MedicalApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MedicalApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A01C7D61F8E155D00C1FDB0 /* ClinicTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinicTableViewCell.h; sourceTree = "<group>"; };
+		2A01C7D71F8E155D00C1FDB0 /* ClinicTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinicTableViewCell.m; sourceTree = "<group>"; };
+		2A34A98F1FA2D55800739DE0 /* UserModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserModel.h; sourceTree = "<group>"; };
+		2A34A9901FA2D55800739DE0 /* UserModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserModel.m; sourceTree = "<group>"; };
+		2A34A9921FA2D58000739DE0 /* UserDataBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserDataBase.h; sourceTree = "<group>"; };
+		2A34A9931FA2D58000739DE0 /* UserDataBase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserDataBase.m; sourceTree = "<group>"; };
+		2A34A9951FA2D64800739DE0 /* LoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		2A34A9961FA2D64800739DE0 /* LoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		2A34A9981FA2D66F00739DE0 /* OrganizationTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OrganizationTableViewCell.h; sourceTree = "<group>"; };
+		2A34A9991FA2D66F00739DE0 /* OrganizationTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OrganizationTableViewCell.m; sourceTree = "<group>"; };
+		2A34A99B1FA2D68000739DE0 /* PhoneNumberTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhoneNumberTableViewCell.h; sourceTree = "<group>"; };
+		2A34A99C1FA2D68000739DE0 /* PhoneNumberTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhoneNumberTableViewCell.m; sourceTree = "<group>"; };
+		2A34A99E1FA2D69000739DE0 /* PWDTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PWDTableViewCell.h; sourceTree = "<group>"; };
+		2A34A99F1FA2D69000739DE0 /* PWDTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PWDTableViewCell.m; sourceTree = "<group>"; };
+		2A34A9A11FA2D71800739DE0 /* RegistViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RegistViewController.h; sourceTree = "<group>"; };
+		2A34A9A21FA2D71800739DE0 /* RegistViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RegistViewController.m; sourceTree = "<group>"; };
+		2A34A9A41FA2D73400739DE0 /* RphoneNumberTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RphoneNumberTableViewCell.h; sourceTree = "<group>"; };
+		2A34A9A51FA2D73400739DE0 /* RphoneNumberTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RphoneNumberTableViewCell.m; sourceTree = "<group>"; };
+		2A34A9A71FA2D74600739DE0 /* RuserNameTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RuserNameTableViewCell.h; sourceTree = "<group>"; };
+		2A34A9A81FA2D74600739DE0 /* RuserNameTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RuserNameTableViewCell.m; sourceTree = "<group>"; };
+		2A34A9AA1FA2D75400739DE0 /* RpwdTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RpwdTableViewCell.h; sourceTree = "<group>"; };
+		2A34A9AB1FA2D75400739DE0 /* RpwdTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RpwdTableViewCell.m; sourceTree = "<group>"; };
+		2A34A9AD1FA2D7B200739DE0 /* ForgetViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ForgetViewController.h; sourceTree = "<group>"; };
+		2A34A9AE1FA2D7B200739DE0 /* ForgetViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ForgetViewController.m; sourceTree = "<group>"; };
+		2A34A9B01FA2D7CD00739DE0 /* FphoneNumberTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FphoneNumberTableViewCell.h; sourceTree = "<group>"; };
+		2A34A9B11FA2D7CD00739DE0 /* FphoneNumberTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FphoneNumberTableViewCell.m; sourceTree = "<group>"; };
+		2A34A9B31FA2D84200739DE0 /* FpwdTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FpwdTableViewCell.h; sourceTree = "<group>"; };
+		2A34A9B41FA2D84200739DE0 /* FpwdTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FpwdTableViewCell.m; sourceTree = "<group>"; };
+		2A4F4E211FC3075C007AA901 /* ReportViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReportViewController.h; sourceTree = "<group>"; };
+		2A4F4E221FC3075C007AA901 /* ReportViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReportViewController.m; sourceTree = "<group>"; };
+		2A4F4E241FC307B3007AA901 /* HealthTestViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HealthTestViewController.h; sourceTree = "<group>"; };
+		2A4F4E251FC307B3007AA901 /* HealthTestViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HealthTestViewController.m; sourceTree = "<group>"; };
+		2A4F4E271FC307D7007AA901 /* CreditShopViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CreditShopViewController.h; sourceTree = "<group>"; };
+		2A4F4E281FC307D7007AA901 /* CreditShopViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CreditShopViewController.m; sourceTree = "<group>"; };
+		2A50152B1FA6C6B7006C83ED /* SetAndHelpViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetAndHelpViewController.h; sourceTree = "<group>"; };
+		2A50152C1FA6C6B7006C83ED /* SetAndHelpViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetAndHelpViewController.m; sourceTree = "<group>"; };
+		2A50152F1FA720BD006C83ED /* UserViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		2A5015301FA720BD006C83ED /* UserViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		2A5015321FA720D2006C83ED /* HeadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HeadTableViewCell.h; sourceTree = "<group>"; };
+		2A5015331FA720D2006C83ED /* HeadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HeadTableViewCell.m; sourceTree = "<group>"; };
+		2A5015361FA72152006C83ED /* UserPhoneTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UserPhoneTableViewCell.h; sourceTree = "<group>"; };
+		2A5015371FA72152006C83ED /* UserPhoneTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UserPhoneTableViewCell.m; sourceTree = "<group>"; };
+		2A5015391FA72167006C83ED /* NickNameTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NickNameTableViewCell.h; sourceTree = "<group>"; };
+		2A50153A1FA72167006C83ED /* NickNameTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NickNameTableViewCell.m; sourceTree = "<group>"; };
+		2A50153C1FA72173006C83ED /* CardTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardTableViewCell.h; sourceTree = "<group>"; };
+		2A50153D1FA72173006C83ED /* CardTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardTableViewCell.m; sourceTree = "<group>"; };
+		2A50153F1FA74B89006C83ED /* RetNameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RetNameViewController.h; sourceTree = "<group>"; };
+		2A5015401FA74B89006C83ED /* RetNameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RetNameViewController.m; sourceTree = "<group>"; };
+		2A9937151FA877FA004095A2 /* SetHeadViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetHeadViewController.h; sourceTree = "<group>"; };
+		2A9937161FA877FA004095A2 /* SetHeadViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SetHeadViewController.m; sourceTree = "<group>"; };
+		2AB6BE181FC431D200C42CD5 /* WebProgressLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebProgressLayer.m; sourceTree = "<group>"; };
+		2AB6BE191FC431D300C42CD5 /* WebProgressLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebProgressLayer.h; sourceTree = "<group>"; };
+		2AB6BE1A1FC431D300C42CD5 /* TYH_WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TYH_WebViewController.m; sourceTree = "<group>"; };
+		2AB6BE1B1FC431D300C42CD5 /* TYH_WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TYH_WebViewController.h; sourceTree = "<group>"; };
+		2AB73B3E1F93462800D55A1F /* TopViewTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopViewTableViewCell.h; sourceTree = "<group>"; };
+		2AB73B3F1F93462800D55A1F /* TopViewTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopViewTableViewCell.m; sourceTree = "<group>"; };
+		2AB73B441F93922E00D55A1F /* ClinicTaps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinicTaps.h; sourceTree = "<group>"; };
+		2AB73B451F93922E00D55A1F /* ClinicTaps.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinicTaps.m; sourceTree = "<group>"; };
+		2AB73B471F9449EA00D55A1F /* SectionTwoHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTwoHeader.h; sourceTree = "<group>"; };
+		2AB73B481F9449EA00D55A1F /* SectionTwoHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTwoHeader.m; sourceTree = "<group>"; };
+		2AB743D91F80E94800BAA0EA /* MedicalApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MedicalApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2AB743DD1F80E94800BAA0EA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2AB743DF1F80E94800BAA0EA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2AB743E01F80E94800BAA0EA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2AB743E21F80E94800BAA0EA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2AB743E31F80E94800BAA0EA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2AB743E61F80E94800BAA0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2AB743E81F80E94800BAA0EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2AB743EB1F80E94800BAA0EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2AB743ED1F80E94800BAA0EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2AB743F71F80EF3B00BAA0EA /* IndexViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexViewController.h; sourceTree = "<group>"; };
+		2AB743F81F80EF3B00BAA0EA /* IndexViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexViewController.m; sourceTree = "<group>"; };
+		2AB743FA1F80EF4E00BAA0EA /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		2AB743FB1F80EF4E00BAA0EA /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		2AB743FD1F80EF5B00BAA0EA /* ClinicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClinicViewController.h; sourceTree = "<group>"; };
+		2AB743FE1F80EF5B00BAA0EA /* ClinicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClinicViewController.m; sourceTree = "<group>"; };
+		2AB744001F80EF6600BAA0EA /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		2AB744011F80EF6600BAA0EA /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		2AB744041F80F61900BAA0EA /* MainTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		2AB744051F80F61900BAA0EA /* MainTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		2AB744071F81398000BAA0EA /* SectionOneTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionOneTableViewCell.h; sourceTree = "<group>"; };
+		2AB744081F81398000BAA0EA /* SectionOneTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionOneTableViewCell.m; sourceTree = "<group>"; };
+		2AB7440A1F81398F00BAA0EA /* SectionTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionTwoTableViewCell.h; sourceTree = "<group>"; };
+		2AB7440B1F81398F00BAA0EA /* SectionTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionTwoTableViewCell.m; sourceTree = "<group>"; };
+		2AC5A2401F833BD1009ABA5A /* IndexDataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IndexDataModel.h; sourceTree = "<group>"; };
+		2AC5A2411F833BD1009ABA5A /* IndexDataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IndexDataModel.m; sourceTree = "<group>"; };
+		2AC5A2671F891B4B009ABA5A /* SectionZeroTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SectionZeroTableViewCell.h; sourceTree = "<group>"; };
+		2AC5A2681F891B4B009ABA5A /* SectionZeroTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SectionZeroTableViewCell.m; sourceTree = "<group>"; };
+		2AC5A26D1F8B0F00009ABA5A /* ButtonCustom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonCustom.h; sourceTree = "<group>"; };
+		2AC5A26E1F8B0F00009ABA5A /* ButtonCustom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonCustom.m; sourceTree = "<group>"; };
+		2AEF86681FC145DF00F8C3BE /* AskDoctorsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AskDoctorsViewController.h; sourceTree = "<group>"; };
+		2AEF86691FC145DF00F8C3BE /* AskDoctorsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AskDoctorsViewController.m; sourceTree = "<group>"; };
+		2AEF866B1FC172EE00F8C3BE /* AppointmentViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppointmentViewController.h; sourceTree = "<group>"; };
+		2AEF866C1FC172EE00F8C3BE /* AppointmentViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppointmentViewController.m; sourceTree = "<group>"; };
+		2AEF866E1FC1805A00F8C3BE /* WisdomMedicalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WisdomMedicalViewController.h; sourceTree = "<group>"; };
+		2AEF866F1FC1805A00F8C3BE /* WisdomMedicalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WisdomMedicalViewController.m; sourceTree = "<group>"; };
+		3CA575B597A3090ACE67BF40 /* Pods-MedicalApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalApp/Pods-MedicalApp.debug.xcconfig"; sourceTree = "<group>"; };
+		A89D8345D1C723EC63D72458 /* Pods-MedicalApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MedicalApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-MedicalApp/Pods-MedicalApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2AB743D61F80E94800BAA0EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C13A4EDB714D13F2C1BBA470 /* libPods-MedicalApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A34A9891FA2D49400739DE0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A34A98D1FA2D52A00739DE0 /* DataBase */,
+				2A34A98A1FA2D50D00739DE0 /* Login */,
+				2A34A98C1FA2D52200739DE0 /* Regist */,
+				2A34A98B1FA2D51900739DE0 /* Forget */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2A34A98A1FA2D50D00739DE0 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				2A34A9951FA2D64800739DE0 /* LoginViewController.h */,
+				2A34A9961FA2D64800739DE0 /* LoginViewController.m */,
+				2A34A9981FA2D66F00739DE0 /* OrganizationTableViewCell.h */,
+				2A34A9991FA2D66F00739DE0 /* OrganizationTableViewCell.m */,
+				2A34A99B1FA2D68000739DE0 /* PhoneNumberTableViewCell.h */,
+				2A34A99C1FA2D68000739DE0 /* PhoneNumberTableViewCell.m */,
+				2A34A99E1FA2D69000739DE0 /* PWDTableViewCell.h */,
+				2A34A99F1FA2D69000739DE0 /* PWDTableViewCell.m */,
+			);
+			name = Login;
+			sourceTree = "<group>";
+		};
+		2A34A98B1FA2D51900739DE0 /* Forget */ = {
+			isa = PBXGroup;
+			children = (
+				2A34A9AD1FA2D7B200739DE0 /* ForgetViewController.h */,
+				2A34A9AE1FA2D7B200739DE0 /* ForgetViewController.m */,
+				2A34A9B01FA2D7CD00739DE0 /* FphoneNumberTableViewCell.h */,
+				2A34A9B11FA2D7CD00739DE0 /* FphoneNumberTableViewCell.m */,
+				2A34A9B31FA2D84200739DE0 /* FpwdTableViewCell.h */,
+				2A34A9B41FA2D84200739DE0 /* FpwdTableViewCell.m */,
+			);
+			name = Forget;
+			sourceTree = "<group>";
+		};
+		2A34A98C1FA2D52200739DE0 /* Regist */ = {
+			isa = PBXGroup;
+			children = (
+				2A34A9A11FA2D71800739DE0 /* RegistViewController.h */,
+				2A34A9A21FA2D71800739DE0 /* RegistViewController.m */,
+				2A34A9A41FA2D73400739DE0 /* RphoneNumberTableViewCell.h */,
+				2A34A9A51FA2D73400739DE0 /* RphoneNumberTableViewCell.m */,
+				2A34A9A71FA2D74600739DE0 /* RuserNameTableViewCell.h */,
+				2A34A9A81FA2D74600739DE0 /* RuserNameTableViewCell.m */,
+				2A34A9AA1FA2D75400739DE0 /* RpwdTableViewCell.h */,
+				2A34A9AB1FA2D75400739DE0 /* RpwdTableViewCell.m */,
+			);
+			name = Regist;
+			sourceTree = "<group>";
+		};
+		2A34A98D1FA2D52A00739DE0 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				2A34A98E1FA2D53A00739DE0 /* UserModel */,
+				2A34A9921FA2D58000739DE0 /* UserDataBase.h */,
+				2A34A9931FA2D58000739DE0 /* UserDataBase.m */,
+			);
+			name = DataBase;
+			sourceTree = "<group>";
+		};
+		2A34A98E1FA2D53A00739DE0 /* UserModel */ = {
+			isa = PBXGroup;
+			children = (
+				2A34A98F1FA2D55800739DE0 /* UserModel.h */,
+				2A34A9901FA2D55800739DE0 /* UserModel.m */,
+			);
+			name = UserModel;
+			sourceTree = "<group>";
+		};
+		2A5015351FA720E1006C83ED /* UserViewController */ = {
+			isa = PBXGroup;
+			children = (
+				2A50152F1FA720BD006C83ED /* UserViewController.h */,
+				2A5015301FA720BD006C83ED /* UserViewController.m */,
+				2A5015321FA720D2006C83ED /* HeadTableViewCell.h */,
+				2A5015331FA720D2006C83ED /* HeadTableViewCell.m */,
+				2A9937151FA877FA004095A2 /* SetHeadViewController.h */,
+				2A9937161FA877FA004095A2 /* SetHeadViewController.m */,
+				2A5015391FA72167006C83ED /* NickNameTableViewCell.h */,
+				2A50153A1FA72167006C83ED /* NickNameTableViewCell.m */,
+				2A50153F1FA74B89006C83ED /* RetNameViewController.h */,
+				2A5015401FA74B89006C83ED /* RetNameViewController.m */,
+				2A5015361FA72152006C83ED /* UserPhoneTableViewCell.h */,
+				2A5015371FA72152006C83ED /* UserPhoneTableViewCell.m */,
+				2A50153C1FA72173006C83ED /* CardTableViewCell.h */,
+				2A50153D1FA72173006C83ED /* CardTableViewCell.m */,
+			);
+			name = UserViewController;
+			sourceTree = "<group>";
+		};
+		2AB743D01F80E94800BAA0EA = {
+			isa = PBXGroup;
+			children = (
+				2AB743DB1F80E94800BAA0EA /* MedicalApp */,
+				2AB743DA1F80E94800BAA0EA /* Products */,
+				B4C7916819221E9B4B85B527 /* Pods */,
+				449B1A39FE890E53AE32EACE /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2AB743DA1F80E94800BAA0EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2AB743D91F80E94800BAA0EA /* MedicalApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2AB743DB1F80E94800BAA0EA /* MedicalApp */ = {
+			isa = PBXGroup;
+			children = (
+				2AEF86741FC1AB5300F8C3BE /* WebViewControl */,
+				2A34A9891FA2D49400739DE0 /* Login */,
+				2AB744031F80F50A00BAA0EA /* MainTabBar */,
+				2AB743DF1F80E94800BAA0EA /* AppDelegate.h */,
+				2AB743E01F80E94800BAA0EA /* AppDelegate.m */,
+				2AB743E21F80E94800BAA0EA /* ViewController.h */,
+				2AB743E31F80E94800BAA0EA /* ViewController.m */,
+				2AB743E51F80E94800BAA0EA /* Main.storyboard */,
+				2AB743E81F80E94800BAA0EA /* Assets.xcassets */,
+				2AB743EA1F80E94800BAA0EA /* LaunchScreen.storyboard */,
+				2AB743ED1F80E94800BAA0EA /* Info.plist */,
+				2AB743DC1F80E94800BAA0EA /* Supporting Files */,
+			);
+			path = MedicalApp;
+			sourceTree = "<group>";
+		};
+		2AB743DC1F80E94800BAA0EA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2AB743DD1F80E94800BAA0EA /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2AB743F31F80EE6D00BAA0EA /* Index */ = {
+			isa = PBXGroup;
+			children = (
+				2AB743F71F80EF3B00BAA0EA /* IndexViewController.h */,
+				2AB743F81F80EF3B00BAA0EA /* IndexViewController.m */,
+				2AC5A26A1F8B0EA0009ABA5A /* SectionZero */,
+				2AC5A26B1F8B0EB1009ABA5A /* SectionOne */,
+				2AC5A26C1F8B0EBB009ABA5A /* SectionTwo */,
+				2AC5A2431F833BDC009ABA5A /* Model */,
+			);
+			name = Index;
+			sourceTree = "<group>";
+		};
+		2AB743F41F80EE7900BAA0EA /* News */ = {
+			isa = PBXGroup;
+			children = (
+				2AB743FA1F80EF4E00BAA0EA /* NewsViewController.h */,
+				2AB743FB1F80EF4E00BAA0EA /* NewsViewController.m */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		2AB743F51F80EE9E00BAA0EA /* Me */ = {
+			isa = PBXGroup;
+			children = (
+				2AB744001F80EF6600BAA0EA /* MeViewController.h */,
+				2AB744011F80EF6600BAA0EA /* MeViewController.m */,
+				2A5015351FA720E1006C83ED /* UserViewController */,
+				2A50152B1FA6C6B7006C83ED /* SetAndHelpViewController.h */,
+				2A50152C1FA6C6B7006C83ED /* SetAndHelpViewController.m */,
+			);
+			name = Me;
+			sourceTree = "<group>";
+		};
+		2AB743F61F80EEA500BAA0EA /* Clinic */ = {
+			isa = PBXGroup;
+			children = (
+				2AB743FD1F80EF5B00BAA0EA /* ClinicViewController.h */,
+				2AB743FE1F80EF5B00BAA0EA /* ClinicViewController.m */,
+				2AB73B3E1F93462800D55A1F /* TopViewTableViewCell.h */,
+				2AB73B3F1F93462800D55A1F /* TopViewTableViewCell.m */,
+				2AB73B441F93922E00D55A1F /* ClinicTaps.h */,
+				2AB73B451F93922E00D55A1F /* ClinicTaps.m */,
+				2A01C7D61F8E155D00C1FDB0 /* ClinicTableViewCell.h */,
+				2A01C7D71F8E155D00C1FDB0 /* ClinicTableViewCell.m */,
+			);
+			name = Clinic;
+			sourceTree = "<group>";
+		};
+		2AB744031F80F50A00BAA0EA /* MainTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				2AB743F51F80EE9E00BAA0EA /* Me */,
+				2AB743F61F80EEA500BAA0EA /* Clinic */,
+				2AB743F41F80EE7900BAA0EA /* News */,
+				2AB743F31F80EE6D00BAA0EA /* Index */,
+				2AB744041F80F61900BAA0EA /* MainTabBarViewController.h */,
+				2AB744051F80F61900BAA0EA /* MainTabBarViewController.m */,
+			);
+			name = MainTabBar;
+			sourceTree = "<group>";
+		};
+		2AC5A2431F833BDC009ABA5A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2AC5A2401F833BD1009ABA5A /* IndexDataModel.h */,
+				2AC5A2411F833BD1009ABA5A /* IndexDataModel.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2AC5A26A1F8B0EA0009ABA5A /* SectionZero */ = {
+			isa = PBXGroup;
+			children = (
+				2AC5A2671F891B4B009ABA5A /* SectionZeroTableViewCell.h */,
+				2AC5A2681F891B4B009ABA5A /* SectionZeroTableViewCell.m */,
+			);
+			name = SectionZero;
+			sourceTree = "<group>";
+		};
+		2AC5A26B1F8B0EB1009ABA5A /* SectionOne */ = {
+			isa = PBXGroup;
+			children = (
+				2AB744071F81398000BAA0EA /* SectionOneTableViewCell.h */,
+				2AB744081F81398000BAA0EA /* SectionOneTableViewCell.m */,
+				2AC5A26D1F8B0F00009ABA5A /* ButtonCustom.h */,
+				2AC5A26E1F8B0F00009ABA5A /* ButtonCustom.m */,
+				2AEF86681FC145DF00F8C3BE /* AskDoctorsViewController.h */,
+				2AEF86691FC145DF00F8C3BE /* AskDoctorsViewController.m */,
+				2AEF866B1FC172EE00F8C3BE /* AppointmentViewController.h */,
+				2AEF866C1FC172EE00F8C3BE /* AppointmentViewController.m */,
+				2AEF866E1FC1805A00F8C3BE /* WisdomMedicalViewController.h */,
+				2AEF866F1FC1805A00F8C3BE /* WisdomMedicalViewController.m */,
+				2A4F4E211FC3075C007AA901 /* ReportViewController.h */,
+				2A4F4E221FC3075C007AA901 /* ReportViewController.m */,
+				2A4F4E241FC307B3007AA901 /* HealthTestViewController.h */,
+				2A4F4E251FC307B3007AA901 /* HealthTestViewController.m */,
+				2A4F4E271FC307D7007AA901 /* CreditShopViewController.h */,
+				2A4F4E281FC307D7007AA901 /* CreditShopViewController.m */,
+			);
+			name = SectionOne;
+			sourceTree = "<group>";
+		};
+		2AC5A26C1F8B0EBB009ABA5A /* SectionTwo */ = {
+			isa = PBXGroup;
+			children = (
+				2AB7440A1F81398F00BAA0EA /* SectionTwoTableViewCell.h */,
+				2AB7440B1F81398F00BAA0EA /* SectionTwoTableViewCell.m */,
+				2AB73B471F9449EA00D55A1F /* SectionTwoHeader.h */,
+				2AB73B481F9449EA00D55A1F /* SectionTwoHeader.m */,
+			);
+			name = SectionTwo;
+			sourceTree = "<group>";
+		};
+		2AEF86741FC1AB5300F8C3BE /* WebViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				2AB6BE1B1FC431D300C42CD5 /* TYH_WebViewController.h */,
+				2AB6BE1A1FC431D300C42CD5 /* TYH_WebViewController.m */,
+				2AB6BE191FC431D300C42CD5 /* WebProgressLayer.h */,
+				2AB6BE181FC431D200C42CD5 /* WebProgressLayer.m */,
+			);
+			name = WebViewControl;
+			sourceTree = "<group>";
+		};
+		449B1A39FE890E53AE32EACE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				04D54D8956C4A80E54CB9D7D /* libPods-MedicalApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B4C7916819221E9B4B85B527 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CA575B597A3090ACE67BF40 /* Pods-MedicalApp.debug.xcconfig */,
+				A89D8345D1C723EC63D72458 /* Pods-MedicalApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2AB743D81F80E94800BAA0EA /* MedicalApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AB743F01F80E94800BAA0EA /* Build configuration list for PBXNativeTarget "MedicalApp" */;
+			buildPhases = (
+				E7A366A81265165605A6CFE6 /* [CP] Check Pods Manifest.lock */,
+				2AB743D51F80E94800BAA0EA /* Sources */,
+				2AB743D61F80E94800BAA0EA /* Frameworks */,
+				2AB743D71F80E94800BAA0EA /* Resources */,
+				50BF2EB30F0579A3BD68A656 /* [CP] Embed Pods Frameworks */,
+				B9CE4957488AE1441B3729AE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MedicalApp;
+			productName = MedicalApp;
+			productReference = 2AB743D91F80E94800BAA0EA /* MedicalApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2AB743D11F80E94800BAA0EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = TyhOS;
+				TargetAttributes = {
+					2AB743D81F80E94800BAA0EA = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6WSEW2YG2C;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2AB743D41F80E94800BAA0EA /* Build configuration list for PBXProject "MedicalApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2AB743D01F80E94800BAA0EA;
+			productRefGroup = 2AB743DA1F80E94800BAA0EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2AB743D81F80E94800BAA0EA /* MedicalApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2AB743D71F80E94800BAA0EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB743EC1F80E94800BAA0EA /* LaunchScreen.storyboard in Resources */,
+				2AB743E91F80E94800BAA0EA /* Assets.xcassets in Resources */,
+				2AB743E71F80E94800BAA0EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		50BF2EB30F0579A3BD68A656 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicalApp/Pods-MedicalApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9CE4957488AE1441B3729AE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MedicalApp/Pods-MedicalApp-resources.sh",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MedicalApp/Pods-MedicalApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7A366A81265165605A6CFE6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MedicalApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2AB743D51F80E94800BAA0EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2AB7440C1F81398F00BAA0EA /* SectionTwoTableViewCell.m in Sources */,
+				2A34A99D1FA2D68000739DE0 /* PhoneNumberTableViewCell.m in Sources */,
+				2A34A9A91FA2D74600739DE0 /* RuserNameTableViewCell.m in Sources */,
+				2A50153E1FA72173006C83ED /* CardTableViewCell.m in Sources */,
+				2A50153B1FA72167006C83ED /* NickNameTableViewCell.m in Sources */,
+				2AEF86701FC1805A00F8C3BE /* WisdomMedicalViewController.m in Sources */,
+				2A50152D1FA6C6B7006C83ED /* SetAndHelpViewController.m in Sources */,
+				2AB73B461F93922E00D55A1F /* ClinicTaps.m in Sources */,
+				2A34A9A61FA2D73400739DE0 /* RphoneNumberTableViewCell.m in Sources */,
+				2AC5A26F1F8B0F00009ABA5A /* ButtonCustom.m in Sources */,
+				2A01C7D81F8E155D00C1FDB0 /* ClinicTableViewCell.m in Sources */,
+				2AB744091F81398000BAA0EA /* SectionOneTableViewCell.m in Sources */,
+				2A5015311FA720BD006C83ED /* UserViewController.m in Sources */,
+				2AEF866D1FC172EE00F8C3BE /* AppointmentViewController.m in Sources */,
+				2AB6BE1D1FC431D300C42CD5 /* TYH_WebViewController.m in Sources */,
+				2A4F4E261FC307B3007AA901 /* HealthTestViewController.m in Sources */,
+				2A9937171FA877FA004095A2 /* SetHeadViewController.m in Sources */,
+				2AB743E41F80E94800BAA0EA /* ViewController.m in Sources */,
+				2AB743E11F80E94800BAA0EA /* AppDelegate.m in Sources */,
+				2A34A9971FA2D64800739DE0 /* LoginViewController.m in Sources */,
+				2AB73B491F9449EA00D55A1F /* SectionTwoHeader.m in Sources */,
+				2A4F4E291FC307D7007AA901 /* CreditShopViewController.m in Sources */,
+				2AB744021F80EF6600BAA0EA /* MeViewController.m in Sources */,
+				2A34A9B51FA2D84200739DE0 /* FpwdTableViewCell.m in Sources */,
+				2AB743FC1F80EF4E00BAA0EA /* NewsViewController.m in Sources */,
+				2A5015411FA74B89006C83ED /* RetNameViewController.m in Sources */,
+				2AC5A2421F833BD1009ABA5A /* IndexDataModel.m in Sources */,
+				2AB73B401F93462800D55A1F /* TopViewTableViewCell.m in Sources */,
+				2A34A9B21FA2D7CD00739DE0 /* FphoneNumberTableViewCell.m in Sources */,
+				2A34A9911FA2D55800739DE0 /* UserModel.m in Sources */,
+				2A34A9A01FA2D69000739DE0 /* PWDTableViewCell.m in Sources */,
+				2AB743DE1F80E94800BAA0EA /* main.m in Sources */,
+				2A34A99A1FA2D66F00739DE0 /* OrganizationTableViewCell.m in Sources */,
+				2AB6BE1C1FC431D300C42CD5 /* WebProgressLayer.m in Sources */,
+				2A34A9941FA2D58000739DE0 /* UserDataBase.m in Sources */,
+				2A34A9AF1FA2D7B200739DE0 /* ForgetViewController.m in Sources */,
+				2A34A9AC1FA2D75400739DE0 /* RpwdTableViewCell.m in Sources */,
+				2AB744061F80F61900BAA0EA /* MainTabBarViewController.m in Sources */,
+				2A34A9A31FA2D71800739DE0 /* RegistViewController.m in Sources */,
+				2AC5A2691F891B4B009ABA5A /* SectionZeroTableViewCell.m in Sources */,
+				2A5015381FA72152006C83ED /* UserPhoneTableViewCell.m in Sources */,
+				2A5015341FA720D2006C83ED /* HeadTableViewCell.m in Sources */,
+				2A4F4E231FC3075C007AA901 /* ReportViewController.m in Sources */,
+				2AEF866A1FC145DF00F8C3BE /* AskDoctorsViewController.m in Sources */,
+				2AB743FF1F80EF5B00BAA0EA /* ClinicViewController.m in Sources */,
+				2AB743F91F80EF3B00BAA0EA /* IndexViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2AB743E51F80E94800BAA0EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB743E61F80E94800BAA0EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2AB743EA1F80E94800BAA0EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2AB743EB1F80E94800BAA0EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2AB743EE1F80E94800BAA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2AB743EF1F80E94800BAA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2AB743F11F80E94800BAA0EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CA575B597A3090ACE67BF40 /* Pods-MedicalApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6WSEW2YG2C;
+				INFOPLIST_FILE = MedicalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.MedicalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$PODS_ROOT/**";
+			};
+			name = Debug;
+		};
+		2AB743F21F80E94800BAA0EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A89D8345D1C723EC63D72458 /* Pods-MedicalApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6WSEW2YG2C;
+				INFOPLIST_FILE = MedicalApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = tyh.MedicalApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$PODS_ROOT/**";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AB743D41F80E94800BAA0EA /* Build configuration list for PBXProject "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB743EE1F80E94800BAA0EA /* Debug */,
+				2AB743EF1F80E94800BAA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2AB743F01F80E94800BAA0EA /* Build configuration list for PBXNativeTarget "MedicalApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2AB743F11F80E94800BAA0EA /* Debug */,
+				2AB743F21F80E94800BAA0EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2AB743D11F80E94800BAA0EA /* Project object */;
+}
